@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #80D5FB;
+    color: rgb(47, 7, 85);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #2baae0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #074864;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #afabf0;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.left:hover {
+    color: white;
+    font-size: 1.52rem;
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .download-resume-btn {
+    padding: 12px;
+    background:  #018fcc;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection .download-resume-btn:hover {
+    color: white;
+    background-color: #165ACC;
+    font-size: 1.27rem;
+}
+
+
+.leftSection .visit-github-btn {
+    padding: 12px;
+    background:  #018fcc;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection .visit-github-btn:hover {
+    color: white;
+    background-color: #165ACC;
+    font-size: 1.27rem;
+}
+
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: #165ACC;
+}
+
+#element {
+    color: #165ACC;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection {
+    font-size: 1.9rem;
+}
+
+.text-gray {
+    color: purple;
+}
+
+.secondSection .box {
+    background: white;
+    max-width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: purple;
+    width: 150px;
+    font-size: 10px;
+}
+
+.footer {
+    background-color: #2baae0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px 0;
+}
+
+.footer-second ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-second li {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-second li a {
+    text-decoration: none;
+    color: #074864;
+    font-size: 1.01rem;
+}
+
+.footer-second li a:hover {
+    color: white;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    background-color: #0097d8;
+    text-align: center;
+    color: rgb(13, 25, 94);
+    padding: 12px 0;
+}
